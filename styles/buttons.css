@@ -1,0 +1,25 @@
+.page-container > .left-column-wrapper > .left-col-buttons {
+    display: flex;
+    gap: 0.8em;
+}
+
+.page-container > .left-column-wrapper > .left-col-buttons button {
+    border-radius: 0.25em; 
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding: 0.6em 0.8em;
+    cursor: pointer;
+}
+
+.page-container > .left-column-wrapper > .left-col-buttons > .green-btn{
+    background-color: #4bce79;
+    border: 1px solid #4bce79;  
+    color: black;
+}
+
+.page-container > .left-column-wrapper > .left-col-buttons > .black-btn{
+    background-color: rgba(17, 17,17,1); 
+    border: 1px solid rgba(17, 17,17,1);
+    color: white;
+ }

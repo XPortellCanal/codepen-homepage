@@ -1,0 +1,84 @@
+/* Common nav styles */
+.navigation-wrapper {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+/* Codepen logo styles */
+.navigation-wrapper > .logo-wrapper {
+    width: 14%;
+    margin-left: 1em;
+}
+
+.navigation-wrapper > .logo-wrapper img {
+    width: 100%;
+}
+
+/* Explore nav styles */
+.navigation-wrapper > .explore-wrapper {
+    width: 35%;
+}
+
+.navigation-wrapper > .explore-wrapper > .explore-text-wrapper{
+    font-size: 0.4em;
+    color: #f4e187;
+}
+
+.navigation-wrapper > .explore-wrapper > .explore-text-wrapper h1{
+    display: inline;
+}
+
+.navigation-wrapper > .explore-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .explore-wrapper > .links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.0em;
+    letter-spacing: 0.01em;
+}
+
+.navigation-wrapper > .explore-wrapper > .links-wrapper > .nav-link select {
+    color: #acacac;
+    background: black;
+    border: none;
+    font-weight: 500;
+    font-size: 1.0em;
+}
+
+/* Users area styles */
+.navigation-wrapper > .users-area-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 1em;
+    width: 40%;
+    padding-right: 0.4em;
+}
+
+.navigation-wrapper > .users-area-wrapper  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    border: 1px solid #36383f;
+    border-radius: 0.3em;
+    padding: 0.8em 1.05em;
+    font-weight: 700;
+    background: #36383f;
+}
+
+.navigation-wrapper > .users-area-wrapper > .search-wrapper {
+    font-size: 1.75em;
+    color: #7b7e8b;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}

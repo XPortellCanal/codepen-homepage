@@ -1,0 +1,54 @@
+/* Common pag-container styles */
+.page-container{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    background: radial-gradient(circle at 25% 0%, rgba(65,69,78,1),black);
+    color: white; 
+}
+
+/* Left column styles*/
+.left-column-wrapper {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    letter-spacing: 0.03em;
+}
+
+.left-column-wrapper h1 {
+    font-weight: 300;
+    font-size: 1.75em;
+}
+
+.left-column-wrapper span{
+    font-weight: 800;
+    color: white;
+}
+
+.left-column-wrapper p{
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #b3b3ab;
+}
+
+/* Right column styles*/
+.right-column-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.right-column-wrapper p{
+    font-weight: 800;
+    font-size: 0.9em;
+    margin-left: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.right-column-wrapper span {
+    color: #78dafd;
+}
+
+.right-column-wrapper img {
+    width: 100%;
+}

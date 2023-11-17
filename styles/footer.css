@@ -1,0 +1,32 @@
+/* Common footer styles*/
+.footer{
+    background: #191a1d;
+    height: 8em;
+}
+
+/* Codepen nav styles*/
+.footer > .CodePen-for-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 3em;
+    background-color: #36383f;
+}
+
+.footer > .CodePen-for-wrapper > .footer-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #676767; 
+}
+
+.footer > .CodePen-for-wrapper > .footer-link a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footer > .CodePen-for-wrapper > .footer-link span {
+    font-weight: 800;
+}
