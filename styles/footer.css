@@ -4,7 +4,7 @@
     height: 8em;
 }
 
-/* Codepen nav styles*/
+/* Codepen footer nav styles*/
 .footer > .CodePen-for-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
